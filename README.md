@@ -31,6 +31,25 @@ Enter a floor to drop people off at (-1 to exit): -1
 ```
 
 2. The next thing that you can do is to run a simulation for 5 seconds. This simulation shows you how all of the 16 elevators are moving every second for 5 seconds. You will be able to see which floor every single elevator is on at any given second. To run the simulation, just type 10.
+```
+At 12 seconds
+Elevator: 0 is at floor 2
+Elevator: 1 is at floor 2
+Elevator: 2 is at floor 0
+Elevator: 3 is at floor 0
+Elevator: 4 is at floor 0
+Elevator: 5 is at floor 0
+Elevator: 6 is at floor 0
+Elevator: 7 is at floor 0
+Elevator: 8 is at floor 0
+Elevator: 9 is at floor 0
+Elevator: 10 is at floor 0
+Elevator: 11 is at floor 0
+Elevator: 12 is at floor 0
+Elevator: 13 is at floor 0
+Elevator: 14 is at floor 0
+Elevator: 15 is at floor 0
+```
 
 3. You can type -1 to exit the program.
 
