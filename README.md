@@ -17,7 +17,11 @@ You can use the language of your choice to implement an elevator control system.
 * Makefile - Script for running make
 
 ### Build Instructions
-To build, just type make in the console. To run the subsequent executable produced, type ./elevator
+To build, just type make in the console. To run the subsequent executable produced, type ./elevator. Type 
+  ```
+  make clean
+  ```
+to delete the executable.
 In the console, you can do 1 of 3 things
 
 1. You can enter a floor number between 0 - 9 to request an elevator to pick you up from that floor. Once you are done entering the floor number for the floor you are currently on, you will then be prompted to enter the floor number for the floor that you want to be dropped off at. To account for the fact that multiple people might get on the same floor but they might all want to get off at different floors, you are able to enter multiple destination floors. There will be a subsequent output to the terminal that shows which elevator was assigned to service the request. There might be 2 elevators assigned to the same floor if there are multiple people waiting on the floor who wish to go in opposite directions. You can then type -1 after you are done entering all the destination floors. Here is an example:
