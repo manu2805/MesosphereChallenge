@@ -21,35 +21,35 @@ To build, just type make in the console. To run the subsequent executable produc
 In the console, you can do 1 of 3 things
 
 1. You can enter a floor number between 0 - 9 to request an elevator to pick you up from that floor. Once you are done entering the floor number for the floor you are currently on, you will then be prompted to enter the floor number for the floor that you want to be dropped off at. To account for the fact that multiple people might get on the same floor but they might all want to get off at different floors, you are able to enter multiple destination floors. There will be a subsequent output to the terminal that shows which elevator was assigned to service the request. There might be 2 elevators assigned to the same floor if there are multiple people waiting on the floor who wish to go in opposite directions. You can then type -1 after you are done entering all the destination floors. Here is an example:
-```
-./elevator 
-Enter floor (0 - 9) to pick people up from (-1 to exit or 10 to simulate for 5 seconds): 8
-Enter a floor to drop people off at (-1 to exit): 5
-Enter a floor to drop people off at (-1 to exit): 4
-Enter a floor to drop people off at (-1 to exit): -1
->>>Elevator to bring people up: 0
-```
+  ```
+  ./elevator 
+  Enter floor (0 - 9) to pick people up from (-1 to exit or 10 to simulate for 5 seconds): 8
+  Enter a floor to drop people off at (-1 to exit): 5
+  Enter a floor to drop people off at (-1 to exit): 4
+  Enter a floor to drop people off at (-1 to exit): -1
+  >>>Elevator to bring people up: 0
+  ```
 
 2. The next thing that you can do is to run a simulation for 5 seconds. This simulation shows you how all of the 16 elevators are moving every second for 5 seconds. You will be able to see which floor every single elevator is on at any given second. To run the simulation, just type 10.
-```
-At 12 seconds
-Elevator: 0 is at floor 2
-Elevator: 1 is at floor 2
-Elevator: 2 is at floor 0
-Elevator: 3 is at floor 0
-Elevator: 4 is at floor 0
-Elevator: 5 is at floor 0
-Elevator: 6 is at floor 0
-Elevator: 7 is at floor 0
-Elevator: 8 is at floor 0
-Elevator: 9 is at floor 0
-Elevator: 10 is at floor 0
-Elevator: 11 is at floor 0
-Elevator: 12 is at floor 0
-Elevator: 13 is at floor 0
-Elevator: 14 is at floor 0
-Elevator: 15 is at floor 0
-```
+  ```
+  At 12 seconds
+  Elevator: 0 is at floor 2
+  Elevator: 1 is at floor 2
+  Elevator: 2 is at floor 0
+  Elevator: 3 is at floor 0
+  Elevator: 4 is at floor 0
+  Elevator: 5 is at floor 0
+  Elevator: 6 is at floor 0
+  Elevator: 7 is at floor 0
+  Elevator: 8 is at floor 0
+  Elevator: 9 is at floor 0
+  Elevator: 10 is at floor 0
+  Elevator: 11 is at floor 0
+  Elevator: 12 is at floor 0
+  Elevator: 13 is at floor 0
+  Elevator: 14 is at floor 0
+  Elevator: 15 is at floor 0
+  ```
 
 3. You can type -1 to exit the program.
 
